@@ -31,9 +31,10 @@ inputClick.onchange=function(e){
 
             //Settings
             let tdSettings = document.createElement("td");
-            let icon = document.createElement("i");
+            let icon = document.createElement("span");
             //<i class="fa-solid fa-xmark"></i>
-            icon.classList.add("fa-solid", "fa-mark");
+            //icon.classList.add("fa-solid", "fa-mark");
+            StereoPannerNode.innerText="x";
 
             tr.append(tdName, tdImage, tdSize, tdSettings);
 
