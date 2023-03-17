@@ -101,11 +101,7 @@ function Upload(files) {
                         btn.style.display="none";
                     }
                     // spanNum.innerText = newArr.length;
-                    let newArr = document.querySelectorAll(".indexer")
-                    for(i=0;i<newArr.length;i++){
-                        newArr[i].innerText = arr1[i];
-                    }
-                        arr1.pop();
+                    
                 })
             })
 
